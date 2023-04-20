@@ -1,3 +1,78 @@
+
+
 # BIG HEADER
 
 ###  SMALL HEADER
+
+```{R}
+#vectors
+#character vector, numeric vector, logical vector, factor
+#single element
+char_vec <- 'hello'
+
+#multiple_element
+char_vec_many <- c('a','c','d')
+
+#numeric vector
+num_vec <- c(1,2,3,4)
+
+#character vec
+xg <- c(2,'aa',10)
+
+#logical vector
+logical_vec <- char_vec_many =='c'
+
+> char_vec
+[1] "hello"
+> strsplit(x= char_vec, split='')
+[[1]]
+[1] "h" "e" "l" "l" "o"
+
+> char_vec_many <- c('a','c','d')
+> ls()
+[1] "char_vec"      "char_vec_many"
+> strsplit(x= 'himani', split='n')
+[[1]]
+[1] "hima" "i"   
+
+> num_vec <- c(1,2,3,4)
+> ls()
+[1] "char_vec"      "char_vec_many" "num_vec"      
+> xg <- c(2,'aa',10)
+> xg
+[1] "2"  "aa" "10"
+> char_vec
+[1] "hello"
+> logical_vec <- char_vec_many =='c'
+> logical_vec
+[1] FALSE  TRUE FALSE
+> logical_vec[1]
+[1] FALSE
+> logical_vec[2]
+[1] TRUE
+> char_vec_many[ligical_vec]
+Error: object 'ligical_vec' not found
+> char_vec_many[logical_vec]
+[1] "c"
+> history()
+
+char_vec <- 'hello'
+ls
+ls()
+char_vec
+strsplit(x= char_vec, split='')
+char_vec_many <- c('a','c','d')
+ls()
+strsplit(x= 'himani', split='n')
+num_vec <- c(1,2,3,4)
+ls()
+xg <- c(2,'aa',10)
+xg
+char_vec
+logical_vec <- char_vec_many =='c'
+logical_vec
+logical_vec[1]
+logical_vec[2]
+char_vec_many[ligical_vec]
+char_vec_many[logical_vec] 
+```
